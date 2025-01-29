@@ -1,3 +1,61 @@
+/* Подключение шрифта Lora */
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lora';
+	src: url('../fonts/Lora-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Подключение шрифта Open Sans */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
 /* Сброс базовых стилей */
 * {
 	margin: 0;
